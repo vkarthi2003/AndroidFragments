@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="MARK DETAILS"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <EditText
+        android:id="@+id/editTextsslc"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="SSLC" />
+
+    <EditText
+        android:id="@+id/editTexthsc"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="HSC" />
+
+    <EditText
+        android:id="@+id/editTextug"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="UG CGPA" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
